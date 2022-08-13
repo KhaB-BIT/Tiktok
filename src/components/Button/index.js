@@ -11,6 +11,7 @@ function Button({
     outline = false,
     text = false,
     rounded = false,
+    greyColor = false,
     disabled = false,
     small = false,
     large = false,
@@ -51,6 +52,7 @@ function Button({
         text,
         disabled,
         rounded,
+        greyColor,
         small,
         large,
     });
